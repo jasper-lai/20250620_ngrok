@@ -1,6 +1,6 @@
 ﻿<body>
     <div style="font-size: medium;">
-        <h1 id="如何使用-ngrok-由外部連入本機網站">如何使用 ngrok 由外部連入本機網站</h1>
+        <!-- <h1 id="如何使用-ngrok-由外部連入本機網站">如何使用 ngrok 由外部連入本機網站</h1> -->
         <h2 id="前言">前言</h2>
         <p>最近有需要由外部連至某位同仁的筆電進行測試的需求, 目前最常用的服務是 ngrok, 它會給一個外部的網址, 當使用者輸入那個外部網址時, 會導向那位同仁筆電上的網站.</p>
         <p>查了一下各個網誌的寫法, 看來似乎很簡單; 但實際走過一遍, 還是有一些坑要小心.</p>
@@ -16,10 +16,10 @@
         </ul>
         <h2 id="安裝">安裝</h2>
         <p>直接解壓縮即可.</p>
-        <p><img src="pictures/01-%E5%AE%89%E8%A3%9D.png" alt="01 安裝" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/01-%E5%AE%89%E8%A3%9D.png?raw=true" alt="01 安裝" /></p>
         <h2 id="環境變數設定">環境變數設定</h2>
         <p>設定 PATH 環境變數.</p>
-        <p><img src="pictures/02-%E7%92%B0%E5%A2%83%E8%AE%8A%E6%95%B8.png" alt="02 環境變數" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/02-%E7%92%B0%E5%A2%83%E8%AE%8A%E6%95%B8.png?raw=true" alt="02 環境變數" /></p>
         <h2 id="實測">實測</h2>
         <h3 id="在本機以-vs2022-執行一個-web-應用程式-ctrl--f5">在本機以 VS2022 執行一個 Web 應用程式 [Ctrl + F5]</h3>
         <p>由以下可看到有 2 個 連結:</p>
@@ -39,7 +39,7 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: ....
 </code></pre>
         <h3 id="本機實測頁面">本機實測頁面</h3>
-        <p><img src="pictures/03-%E6%9C%AC%E6%A9%9F%E5%AF%A6%E6%B8%AC%E9%A0%81%E9%9D%A2.png" alt="03 本機實測頁面" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/03-%E6%9C%AC%E6%A9%9F%E5%AF%A6%E6%B8%AC%E9%A0%81%E9%9D%A2.png?raw=true" alt="03 本機實測頁面" /></p>
         <h3 id="ngrok-認證及授權-本機電腦只需作一次即可">ngrok 認證及授權 (本機電腦只需作一次即可)</h3>
         <p>必須要在 ngrok 註冊帳號, 並取得 token, 才能在本機啟動 ngrok.</p>
         <ul>
@@ -87,11 +87,11 @@ info: Microsoft.Hosting.Lifetime[0]
                 </ul>
             </li>
         </ul>
-        <p><img src="pictures/04-%E5%95%9F%E5%8B%95%20ngrok.png" alt="04-啟動 ngrok" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/04-%E5%95%9F%E5%8B%95%20ngrok.png?raw=true" alt="04-啟動 ngrok" /></p>
         <h3 id="透過-ngrok-連入本機">透過 ngrok 連入本機</h3>
         <p>出現這個頁面, 只要按 [Visit Site] 即可.</p>
-        <p><img src="pictures/05-%E9%80%8F%E9%81%8E%20ngrok%20%E9%80%A3%E5%85%A5%E6%9C%AC%E6%A9%9F-1.png" alt="05-透過 ngrok 連入本機-1" /></p>
-        <p><img src="pictures/06-%E9%80%8F%E9%81%8E%20ngrok%20%E9%80%A3%E5%85%A5%E6%9C%AC%E6%A9%9F-2.png" alt="06-透過 ngrok 連入本機-2" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/05-%E9%80%8F%E9%81%8E%20ngrok%20%E9%80%A3%E5%85%A5%E6%9C%AC%E6%A9%9F-1.png?raw=true" alt="05-透過 ngrok 連入本機-1" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/06-%E9%80%8F%E9%81%8E%20ngrok%20%E9%80%A3%E5%85%A5%E6%9C%AC%E6%A9%9F-2.png?raw=true" alt="06-透過 ngrok 連入本機-2" /></p>
         <h2 id="常用連結">常用連結</h2>
         <p>由於整個過程, 有發生一些狀況, 故將連結整理如下:</p>
         <h3 id="障礙排除">障礙排除</h3>
@@ -100,12 +100,12 @@ info: Microsoft.Hosting.Lifetime[0]
         <ul>
             <li><a href="https://dashboard.ngrok.com/agents">https://dashboard.ngrok.com/agents</a></li>
         </ul>
-        <p><img src="pictures/07-stop%20ngrok%20agent%20service.png" alt="07-stop ngrok agent service" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/07-stop%20ngrok%20agent%20service.png?raw=true" alt="07-stop ngrok agent service" /></p>
         <h3 id="狀態查詢">狀態查詢</h3>
         <p>本機 ngrok 狀態檢視 (在 ngrok service 有啟動的狀況下)</p>
         <ul>
             <li>http://localhost:4040/</li>
         </ul>
-        <p><img src="pictures/08-ngrok%20status.png" alt="08-ngrok status" /></p>
+        <p><img src="https://github.com/jasper-lai/20250620_ngrok/blob/master/pictures/08-ngrok%20status.png?raw=true" alt="08-ngrok status" /></p>
     </div>
 </body>

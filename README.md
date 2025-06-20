@@ -103,7 +103,7 @@ info: Microsoft.Hosting.Lifetime[0]
 此時, 只能到以下連結停掉服務.
 - https://dashboard.ngrok.com/agents 
 
-![07-stop ngrok agent service](pictures/07-stop%20ngrok%20agent%20service.png)  
+![07-stop ngrok agent service](pictures/07-stop%20ngrok%20agent%20service.png)
 
 ### 狀態查詢
 
